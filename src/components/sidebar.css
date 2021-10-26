@@ -1,0 +1,121 @@
+.sidebar {
+  height: 100vh;
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  /* position: fixed; */
+}
+
+.sidebar__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 0.3rem;
+  width: 88%;
+}
+
+.sidebar__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  transition: all 0.5s ease-in;
+  height: 100vh;
+}
+
+.twitterIcon__container {
+  padding: 0.3rem;
+  width: fit-content;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-bottom: 0.6rem;
+  margin-left: 0.8rem;
+}
+
+.twitterIcon__container > .MuiSvgIcon-root {
+  color: #1da1f2;
+  font-size: 2rem;
+}
+
+.twitterIcon__container:hover {
+  background-color: #e8f5fe;
+  transition: all 0.1s ease;
+}
+
+.icon__container {
+  display: flex;
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;
+  width: fit-content;
+  margin-bottom: 0.5rem;
+}
+
+.icon__container > h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.icon__container:hover {
+  background-color: #e8f5fe;
+  transition: all 0.1s ease;
+}
+
+.icon__container > .MuiSvgIcon-root {
+  margin-right: 1rem;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.icon__container:hover {
+  color: #1da1f2;
+  cursor: pointer;
+}
+
+.icon__container--clicked {
+  color: #1da1f2;
+}
+
+.sidebar__button {
+  color: white;
+  background-color: #1da1f2;
+  outline: none;
+  border: none;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  font-weight: 800;
+  margin-top: 1rem;
+}
+
+.sidebar__button:hover {
+  color: white;
+  background-color: #1a91da;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sidebar__profile:hover {
+  cursor: pointer;
+  background-color: #e8f5fe;
+}
+
+.sidebar__profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+}
+
+.sidebar__profile > .MuiSvgIcon-root {
+  font-size: 1.5rem;
+}
+
+.profile__info {
+  margin-right: 2rem;
+  font-size: 0.9rem;
+}
+
+.profile__info > p {
+  color: gray;
+}

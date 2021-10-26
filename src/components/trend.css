@@ -1,0 +1,43 @@
+.trend {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 1.2rem;
+    border-bottom: 1px solid #eff1f1;
+    transition: all 0.2s ease;
+}
+
+.trend > .MuiSvgIcon-root {
+    color: rgb(83, 100, 113);
+}
+
+.trend:hover {
+    background-color: #eff1f1;
+    cursor: pointer;
+}
+
+.trend__type {
+    font-size: 0.8rem;
+    color: rgb(83, 100, 113);
+}
+
+.trend__title {
+    font-size: 0.93;
+    font-weight: 700;
+    color: rgb(15, 20, 25);
+}
+
+.trend__more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: fit-content;
+    padding: 0.3rem;
+    transition: all 0.2s ease;
+}
+
+.trend__more:hover {
+    background-color: #dae8f1;
+    color: #1da1f2;
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+.follow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.2rem;
+    transition: all 0.2s ease;
+}
+
+.follow:hover {
+    cursor: pointer;
+    background-color: #eff1f1;
+}
+
+.follow__profile {
+    display: flex;
+    align-items: center;
+}
+
+.follow__info {
+    margin-left: 0.8rem;
+}
+
+.follow__name {
+    font-size: 0.93rem;
+    font-weight: 700;
+    color: black;
+}
+
+.follow__username {
+    font-size: 0.93rem;
+    font-weight: 400;
+    color: rgb(83, 100, 113);
+}
+
+.follow__button {
+    background-color: transparent;
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+    padding: 0.3rem 1rem;
+    font-size: 0.93rem;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    border-radius: 1rem;
+    outline: none;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.follow__button:hover {
+    cursor: pointer;
+    background-color: #dae8f1;
+}

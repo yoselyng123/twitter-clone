@@ -1,0 +1,95 @@
+.tweetBox {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  border-bottom: 0.8rem solid #f7f9f9;
+}
+
+.tweetBox > form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 0.5rem;
+}
+
+.tweetBox > form > input {
+  border: none;
+  outline: none;
+  padding: 1rem 1rem 1rem 0.4rem;
+  font-size: 1.25rem;
+}
+
+.tweetBox__form__privacy {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.3rem 0.5rem;
+  margin-bottom: 1rem;
+  color: #1da1f2;
+  font-weight: 700;
+  font-size: 0.875rem;
+  width: fit-content;
+}
+
+.tweetBox__form__privacy:hover {
+  border-radius: 2rem;
+  cursor: pointer;
+  background-color: #e8f5fe;
+}
+
+.tweetBox__form__privacy > .MuiSvgIcon-root {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.tweetBox__form__options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tweetBox__form-add {
+  display: flex;
+}
+
+.tweetBox__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: fit-content;
+  padding: 0.3rem;
+  transition: all 0.2s ease;
+  color: #1da1f2;
+}
+
+.tweetBox__icon:hover {
+  background-color: #dae8f1;
+  cursor: pointer;
+}
+
+.tweetBox__icon > .MuiSvgIcon-root {
+  font-size: 1.4rem;
+  margin-right: 0.2rem;
+}
+
+.equalizer {
+  transform: rotate(90deg);
+}
+
+.tweetBox__btn {
+  padding: 0.5rem 1rem;
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  outline: none;
+  font-family: 'Segoe UI';
+  font-weight: 700;
+  font-size: 0.93rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 0.5;
+}

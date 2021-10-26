@@ -1,0 +1,96 @@
+.board {
+  width: 25%;
+  padding-left: 1.8rem;
+}
+
+.board__content {
+  margin-top: 0.3rem;
+  width: 70%;
+}
+
+/* SEARCHBAR */
+
+.board__searchBar {
+  display: flex;
+  background-color: #eff3f4;
+  align-items: center;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}
+
+.board__searchBar > input {
+  flex: 0.9;
+  border: none;
+  background-color: inherit;
+  outline: none;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  padding: 0.75rem;
+  text-align: left;
+  font-family: 'Segoe UI';
+}
+
+.board__searchBar > .MuiSvgIcon-root {
+  margin-left: 1rem;
+  color: gray;
+}
+
+/* TRENDING SECTION */
+
+.board__trend {
+  background-color: #f7f9f9;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.trend__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1.2rem;
+  border-bottom: 1px solid #eff1f1;
+}
+
+.trend__header > h2 {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.trend__header > .MuiSvgIcon-root {
+  color: #1da1f2;
+  margin-right: 0.5rem;
+}
+
+.trend__footer {
+  padding: 1rem 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.trend__footer:hover {
+  background-color: #eff1f1;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.trend__footer > a {
+  text-decoration: none;
+  color: #1da1f2;
+  font-size: 0.93;
+  font-weight: 400;
+}
+
+.trend__setting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: fit-content;
+  padding: 0.5rem;
+  transition: all 0.2s ease;
+  color: #1da1f2;
+}
+
+.trend__setting:hover {
+  background-color: #dae8f1;
+  cursor: pointer;
+}

@@ -1,0 +1,63 @@
+.tweet {
+  display: flex;
+  padding: 1rem;
+}
+.tweet__info {
+  margin-left: 1rem;
+  flex-wrap: wrap;
+}
+.tweet__provider {
+  display: flex;
+}
+.tweet__name {
+  font-size: 0.94rem;
+  font-weight: 700;
+  font-family: 'Segoe UI';
+  margin-right: 0.4rem;
+}
+.tweet__username {
+  font-size: 0.94rem;
+  font-weight: 400;
+  font-family: 'Segoe UI';
+  color: #536471;
+  margin-right: 0.3rem;
+}
+.tweet__timeStamp {
+  font-size: 0.94rem;
+  font-weight: 400;
+  font-family: 'Segoe UI';
+  color: #536471;
+}
+.tweet__text {
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  font-size: 0.94rem;
+  color: #0f1419;
+  font-weight: 400;
+  font-family: 'Segoe UI';
+}
+.tweet__options {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.tweet__icon {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.tweet__icon:hover {
+  cursor: pointer;
+}
+
+.iconWrapper {
+  padding: 0.5rem 0.5rem 0.4rem 0.5rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.tweet__icon > p {
+  font-size: 0.8rem;
+}
